@@ -4,16 +4,17 @@ using namespace std;
 
 int main ()
 {
-  double oceanLevel, riseRate, FiveYear, SevenYear, TenYear;
-  oceanLevel = 2133.6;
-    riseRate = 1.5;
-  FiveYear = 5 * riseRate + 2133.6;
-  SevenYear = 7 * riseRate + 2133.6;
-  TenYear = 10 * riseRate + 2133.6;
-  cout << "Our current ocean level of " << oceanLevel << " mm is experiencing a steady rise." << endl;
-  cout << "Ocean levels are rising at a rate of " << riseRate << " mm per year." << endl;
-  cout << "Within five years from now the new ocean level will be " << FiveYear << " mm." << endl;
-  cout << " Seven years from now the ocean level will be " << SevenYear << " mm." << endl;
-  cout << "And just ten years from now the ocean level will be " << TenYear << " mm." << endl;
+ double EnergyDrink, CitrusFlavor, CitrusLovers;
+  int Customers, TotalDrink = 2475;
+  EnergyDrink = 15;
+  CitrusFlavor = 58;
+  CitrusLovers = TotalDrink * CitrusFlavor/100;
+  Customers = 16500;
+  TotalDrink = 2475;
+  cout << "A store surveyed " << Customers << " on what drinks they enjoy." << endl;
+  cout << "Of those cutomers, only " << EnergyDrink << "% consume energy drinks." << endl;
+  cout << "Approximately " << TotalDrink << " customers imbibe in energy drinks." << endl;
+  cout << "Of those " << CitrusFlavor << "% love citrus flavored energy drinks. " << endl;
+  cout << "A total of " << CitrusLovers << " customers drink the citrus energy drinks." << endl;
   return 0;
 }
