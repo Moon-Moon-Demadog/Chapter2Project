@@ -1,21 +1,20 @@
 #include <iostream>
 using namespace std;
-// Ocean level project one
+// Gas rate, project two, how far will one tank of gas get you?
 
 int main ()
 {
-  double oceanLevel, riseRate, FiveYear, SevenYear, TenYear;
-  oceanLevel = 2133.6;
-    riseRate = 1.5;
-  FiveYear = 5 * riseRate + 2133.6;
-  SevenYear = 7 * riseRate + 2133.6;
-  TenYear = 10 * riseRate + 2133.6;
-  cout << "Our current ocean level of " << oceanLevel << " mm is experiencing a steady rise." << endl;
-  cout << "Ocean levels are rising at a rate of " << riseRate << " mm per year." << endl;
-  cout << "Within five years from now the new ocean level will be " << FiveYear << " mm." << endl;
-  cout << " Seven years from now the ocean level will be " << SevenYear << " mm." << endl;
-  cout << "And just ten years from now the ocean level will be " << TenYear << " mm." << endl;
-  return 0;
+  double CityMiles, HighwayMiles, City, Highway;
+  int Gallons = 20;
+  City = 23.5;
+  Highway = 28.9;
+  CityMiles = Gallons * City;
+  HighwayMiles = Gallons * Highway;
 
-  
+  cout << " Lets figure the efficency of a car on the highway vs the city." << endl;
+  cout << "An average car holds " << Gallons << " gallons, and has an average of " << City << "mpg for the city";
+  cout << " and for the highway " << Highway << "mpg." << endl;
+  cout << "So traveling on the highway you can expect to go " << HighwayMiles << " miles." << endl;
+  cout << "Now traveling in the city you can expect to go " << CityMiles << " miles." << endl;
+  return 0;
 }
